@@ -4,7 +4,7 @@
 // @version      __VERSION__
 // @description  Tampermonkey assistant.
 // @author       aric.zheng
-// @match        *://*/*
+// @match        *://weixin110.qq.com/*
 // @updateURL https://raw.githubusercontent.com/afeiship/gm-assistant/master/dist/install.js
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
 // @require  https://cdn.jsdelivr.net/npm/@feizheng/gm-sdk@1.1.5

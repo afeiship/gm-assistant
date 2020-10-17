@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/gm-assistant",
-  "version": "1.0.31",
+  "version": "1.0.0",
   "description": "Tampermonkey assistant.",
   "homepage": "https://github.com/afeiship/gm-assistant",
   "author": {
@@ -8,6 +8,7 @@
     "email": "1290657123@qq.com"
   },
   "scripts": {
+    "dev":"rollup --watch --config=rollup.config.js",
     "build": "rollup -c"
   },
   "main": "dist/index.js",

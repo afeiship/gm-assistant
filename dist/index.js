@@ -2,9 +2,9 @@
  *  name: @feizheng/gm-assistant
  *  description: Tampermonkey assistant.
  *  homepage: https://github.com/afeiship/gm-assistant
- *  version: 1.0.31
- *  date: 2020-10-17T07:53:07.285Z
+ *  version: 1.0.0
+ *  date: 2020-10-17T08:04:16.121Z
  *  license: MIT
  */
 
-!function(n){"function"==typeof define&&define.amd?define(n):n()}((function(){$(document).ready(()=>{console.log("it works!")})}));
+!function(t){"function"==typeof define&&define.amd?define(t):t()}((function(){$(document).ready(()=>{var t=$(".weui-msg"),e=t.find(".weui-msg__desc").text().trim();t.after('<button id="goto" class="weui-btn weui-btn_primary" style="cursor: pointer;">一键前往</button>'),$("#goto").click(()=>{location.href=e})})}));
