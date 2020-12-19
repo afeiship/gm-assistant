@@ -1,5 +1,5 @@
 
-import '@feizheng/next-rollup-banner';
+import '@jswork/next-rollup-banner';
 import multi from '@rollup/plugin-multi-entry';
 import banner from 'rollup-plugin-banner';
 import commonjs from 'rollup-plugin-commonjs';

@@ -5,10 +5,11 @@
 // @description  Tampermonkey assistant.
 // @author       aric.zheng
 // @match        *://weixin110.qq.com/*
+// @match        *://github.com/afeiship/*
 // @updateURL https://raw.githubusercontent.com/afeiship/gm-assistant/master/dist/install.js
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
 // @require  https://cdn.jsdelivr.net/npm/@feizheng/gm-sdk@1.1.5
-// @require  https://cdn.jsdelivr.net/npm/@feizheng/gm-assistant@__VERSION__
+// @require  https://cdn.jsdelivr.net/npm/@jswork/gm-assistant@__VERSION__
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js
 // @resource JQ_TOAST https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.css
 // @grant GM_addStyle
