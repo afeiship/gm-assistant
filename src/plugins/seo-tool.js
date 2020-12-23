@@ -3,10 +3,9 @@
  * 直接查询域名的: http://seo.chinaz.com/demo.com 信息
  */
 
-
 $(document).ready(() => {
-  const host = location.host;
-  const domain = host.split('.').slice(-2).join('.');
+  const host = location.hostname;
+  const domain = nx.domain();
 
   const html = `
     <div class="seo-toolkit">
@@ -32,16 +31,15 @@ $(document).ready(() => {
   GM_addStyle(styles);
 
   $('body').prepend(html);
-  $("#btn-seo1").click(() => {
+  $('#btn-seo1').click(() => {
     window.open(`http://seo.chinaz.com/${domain}`);
   });
 
-  $("#btn-seo2").click(() => {
+  $('#btn-seo2').click(() => {
     window.open(`http://seo.chinaz.com/${host}`);
   });
 
-  $("#btn-close").click(() => {
+  $('#btn-close').click(() => {
     $('.gm-btn').remove();
   });
-
 });
