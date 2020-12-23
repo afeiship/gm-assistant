@@ -10,8 +10,7 @@
 // @require  https://cdn.jsdelivr.net/npm/@feizheng/gm-sdk@1.1.5
 // @require  https://cdn.jsdelivr.net/npm/@jswork/gm-assistant@1.0.1
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js
-// @resource JQ_TOAST https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.css
-// @resource PHOTON_CSS https://cdnjs.cloudflare.com/ajax/libs/photon/0.1.2-alpha/css/photon.min.css
+// @resource GM_STYLES https://unpkg.com/@jswork/gm-styles@1.0.2/dist/index.css
 // @grant GM_addStyle
 // @grant GM_deleteValue
 // @grant GM_listValues
@@ -37,3 +36,7 @@
 // @icon64 https://tva1.sinaimg.cn/large/007S8ZIlgy1gexw87htqhj305k05k74o.jpg
 // @noframes
 // ==/UserScript==
+
+
+const GM_STYLES = GM_getResourceText('GM_STYLES');
+GM_addStyle(GM_STYLES);
