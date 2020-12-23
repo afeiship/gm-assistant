@@ -33,11 +33,11 @@ $(document).ready(() => {
 
   $('body').prepend(html);
   $("#btn-seo1").click(() => {
-    location.href = `http://seo.chinaz.com/${domain}`;
+    window.open(`http://seo.chinaz.com/${domain}`);
   });
 
   $("#btn-seo2").click(() => {
-    location.href = `http://seo.chinaz.com/${host}`;
+    window.open(`http://seo.chinaz.com/${host}`);
   });
 
   $("#btn-close").click(() => {
