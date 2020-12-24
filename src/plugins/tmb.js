@@ -35,7 +35,6 @@ $(document).ready(() => {
     let action = $(evt.target).data('gm-action');
     let mid = root.scrollHeight / 2;
     action === 'middle' && (action = mid);
-    console.log(action);
     nx.scrollTo({ el: root, to: action });
   });
 
