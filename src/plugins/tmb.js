@@ -39,7 +39,7 @@ $(document).ready(() => {
   gmsdk.addStyle(styles);
 
   ctx.prepend(html);
-  ctx.find('[data-gm-action]').click((evt) => {
+  ctx.find('[data-gm-action]').mouseenter((evt) => {
     let action = $(evt.target).data('gm-action');
     action === 'middle' && (action = midHeight());
     nx.scrollTo({ el: root, to: action });
