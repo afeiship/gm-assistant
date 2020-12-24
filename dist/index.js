@@ -3,7 +3,7 @@
  *  description: Tampermonkey assistant.
  *  homepage: https://github.com/afeiship/gm-assistant
  *  version: 1.0.5
- *  date: 2020-12-24T08:18:39.780Z
+ *  date: 2020-12-24T10:11:58.520Z
  *  license: MIT
  */
 
