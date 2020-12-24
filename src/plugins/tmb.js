@@ -4,6 +4,14 @@
  * top/middle/bottom
  */
 
+const midHeight = () => {
+  const body = document.body,
+    html = document.documentElement;
+  const height = Math.max(body.scrollHeight, body.offsetHeight,
+    html.clientHeight, html.scrollHeight, html.offsetHeight);
+  return height / 2 - window.innerHeight / 2;
+};
+
 $(document).ready(() => {
   const ctx = $('body');
   const root = document.documentElement;
@@ -33,8 +41,7 @@ $(document).ready(() => {
   ctx.prepend(html);
   ctx.find('[data-gm-action]').click((evt) => {
     let action = $(evt.target).data('gm-action');
-    let mid = root.scrollHeight / 2;
-    action === 'middle' && (action = mid);
+    action === 'middle' && (action = midHeight());
     nx.scrollTo({ el: root, to: action });
   });
 
