@@ -10,6 +10,9 @@
 
 ## features
 - [x] 微信110屏蔽的网页下面方便自动打开
+- [x] github 上添加 npm/github 快捷操作 
+- [x] 在 github 的 repo 页面，添加复制快捷操作
+- [x] 在所有页面添加 seo/tmb 操作工具栏
 
 ## steps
 1. 安装 [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en-US)
