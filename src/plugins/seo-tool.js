@@ -5,7 +5,6 @@
 
 $(document).ready(() => {
   const host = location.hostname;
-  const domain = nx.domain();
 
   const html = `
     <div class="seo-toolkit">
@@ -32,7 +31,7 @@ $(document).ready(() => {
 
   $('body').prepend(html);
   $('#btn-seo1').click(() => {
-    window.open(`http://seo.chinaz.com/${domain}`);
+    window.open(`http://seo.chinaz.com/${nx.domain()}`);
   });
 
   $('#btn-seo2').click(() => {
