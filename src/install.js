@@ -7,10 +7,10 @@
 // @match        *://*/*
 // @updateURL https://raw.githubusercontent.com/afeiship/gm-assistant/master/dist/install.js
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
-// @require  https://cdn.jsdelivr.net/npm/@jswork/gm-sdk@1.0.11
+// @require  https://cdn.jsdelivr.net/npm/@jswork/gm-sdk@1.0.13
 // @require  https://cdn.jsdelivr.net/npm/@jswork/gm-assistant@__VERSION__
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js
-// @resource GM_STYLES https://unpkg.com/@jswork/gm-styles@1.0.2/dist/index.css
+// @resource GM_STYLES https://unpkg.com/@jswork/gm-styles@1.0.5/dist/index.css
 // @grant GM_addStyle
 // @grant GM_deleteValue
 // @grant GM_listValues
