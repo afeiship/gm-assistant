@@ -8,7 +8,7 @@ $(document).ready(() => {
   if (!el.length) return;
 
   const name = $('#js-repo-pjax-container [data-pjax="#js-repo-pjax-container"]').eq(0).text();
-  const ssh = $('tab-container [role="tabpanel"]').eq(1).find('input').val();
+  const ssh = $('tab-container [role="tabpanel"] .input-group .form-control').eq(1).val();
   const githubHtmlCopy = (inValue) => {
     return `<div class="mb-2 input-group">
       <input class="form-control input-monospace input-sm bg-gray-light" value="${inValue}" aria-label="${inValue}" disabled>
