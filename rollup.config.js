@@ -19,7 +19,7 @@ const installCfg = {
 };
 
 export default {
-  input: 'src/plugins/**.js',
+  input: 'src/main.js',
   output: {
     strict: false,
     file: 'dist/index.js',
