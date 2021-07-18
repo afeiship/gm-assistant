@@ -7,7 +7,7 @@
 // @match        *://*/*
 // @updateURL https://raw.githubusercontent.com/afeiship/gm-assistant/master/dist/install.js
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
-// @require  https://cdn.jsdelivr.net/npm/@jswork/gm-sdk@1.0.14
+// @require  https://cdn.jsdelivr.net/npm/@jswork/gm-sdk@1.0.18
 // @require  https://cdn.jsdelivr.net/npm/@jswork/gm-assistant@__VERSION__
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js
 // @resource GM_STYLES https://unpkg.com/@jswork/gm-styles@1.0.6/dist/index.css
@@ -32,6 +32,7 @@
 // @grant GM_notification
 // @grant GM_setClipboard
 // @grant GM_info
+// @grant GM_cookie
 // @grant  window.focus
 // @icon64 https://tva1.sinaimg.cn/large/007S8ZIlgy1gexw87htqhj305k05k74o.jpg
 // @noframes

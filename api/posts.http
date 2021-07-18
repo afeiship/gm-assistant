@@ -1,0 +1,24 @@
+### GET posts
+GET https://aric-heroku-storage.herokuapp.com/posts
+
+### GET posts/:id
+GET https://aric-heroku-storage.herokuapp.com/posts/weiyun
+
+
+### POST create
+POST https://aric-heroku-storage.herokuapp.com/posts
+Content-Type: application/json
+
+{ "id":"weiyun", "token":"xxx" }
+
+
+### POST update
+PUT https://aric-heroku-storage.herokuapp.com/posts/weiyun
+Content-Type: application/json
+
+{ "token":"zzzzz" }
+
+
+### POST destroy
+DELETE https://aric-heroku-storage.herokuapp.com/posts/weiyun
+Content-Type: application/json
