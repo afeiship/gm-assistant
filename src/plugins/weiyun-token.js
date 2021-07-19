@@ -6,7 +6,7 @@ $(document).ready(() => {
     gmsdk.http
       .put({
         url: 'http://aric.xrztech.cn:3000/posts/weiyun',
-        data: { token: document.cookie }
+        data: { token: document.cookie, updated_at: nx.Date.format() }
       })
       .then((res) => {
         console.log('WEIYUN TOKEN has update.');
