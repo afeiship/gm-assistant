@@ -2,8 +2,8 @@
  *  name: @jswork/gm-assistant
  *  description: Tampermonkey assistant.
  *  homepage: https://github.com/afeiship/gm-assistant
- *  version: 1.0.19
- *  date: 2021-07-19T01:34:56.605Z
+ *  version: 1.0.20
+ *  date: 2021-07-19T05:52:35.855Z
  *  license: MIT
  */
 
